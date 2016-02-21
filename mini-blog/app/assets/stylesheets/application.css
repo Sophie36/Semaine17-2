@@ -1,15 +1,47 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-image:url("http://auxfondecran.free.fr/big/animaux/39.jpg");
+ background-repeat:no-repeat;
+ font-size: 13px;
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 922px;
+}
+#header {
+ color: #333;
+ width: 902px;
+ padding: 10px;
+ height: 100px;
+ margin: 10px 0px 5px 0px;
+ background: #ABBEBE;
+}
+#leftcolumn { 
+ display: inline;
+ color: #333;
+ margin:10px;
+ padding:0;
+ width: 195px;
+ float: left;
+}
+#content { 
+ float: left;
+ color: orange;
+ margin: 150px 13px;
+ padding:0;
+ width: 460px;
+ display: inline;
+ position: relative;
+}
+#rightcolumn { 
+ display: inline;
+ position: relative;
+ color: #333;
+ margin: 10px 10px 10px 0px;
+ padding:0;
+ width: 195px;
+ float: right;
+}
+.clear { clear: both; background: none; }
